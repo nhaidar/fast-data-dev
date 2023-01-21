@@ -1,5 +1,5 @@
 # build images
-git checkout box/5.0
+git checkout box/main
 docker build  --platform linux/arm64 -t nhaidarflipp/kafka-lenses-dev:arm64 .
 git checkout fdd/main
 docker build  --platform linux/amd64 -t nhaidarflipp/kafka-lenses-dev:amd64 .
